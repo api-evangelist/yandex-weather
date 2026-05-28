@@ -1,0 +1,32 @@
+aid: yandex-weather
+name: Yandex.Weather
+description: "Assesses weather condition in specific locations"
+url: https://yandex.com/dev/weather/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Weather"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Weather
+  - Public APIs
+apis:
+  - name: Yandex.Weather
+    description: "Assesses weather condition in specific locations"
+    humanURL: https://yandex.com/dev/weather/
+    baseURL: https://yandex.com/dev/weather/
+    tags:
+      - Weather
+    properties:
+      - type: Documentation
+        url: https://yandex.com/dev/weather/
+common:
+  - type: Website
+    url: https://yandex.com/dev/weather/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
