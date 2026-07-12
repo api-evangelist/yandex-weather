@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://yandex.com/dev/weather/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/yandex-weather-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/yandex-weather-domain-security.yml
   - type: Website
     url: https://yandex.com/dev/weather/
   - type: PublicAPIsListing

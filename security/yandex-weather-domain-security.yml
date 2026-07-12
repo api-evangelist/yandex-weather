@@ -1,0 +1,18 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: yandex.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 29 20:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: yandex.com
+  dnssec: false
+  caa:
+  - 0 issuewild "globalsign.com"
+  - 0 issue "globalsign.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: none
