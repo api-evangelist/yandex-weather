@@ -39,7 +39,6 @@ apis:
   - name: Yandex.Weather
     description: "Assesses weather condition in specific locations"
     humanURL: https://yandex.com/dev/weather/
-    baseURL: https://yandex.com/dev/weather/
     tags:
       - Weather
     properties:
